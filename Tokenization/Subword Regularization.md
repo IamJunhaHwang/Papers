@@ -232,7 +232,7 @@
 
 ### *Main Results*
 
-<div align ="center"><img src="[/uploads/c27ffdaf1a64e72e88490839731e51db/image.png](https://user-images.githubusercontent.com/46083287/209086085-8fd4248e-2dd5-4629-9ab8-113bd261cf9a.png)" width="70%"></img></div>
+<div align ="center"><img src="https://user-images.githubusercontent.com/46083287/209086085-8fd4248e-2dd5-4629-9ab8-113bd261cf9a.png" width="70%"></img></div>
 
   - subword 정규화가 없는 Unigram LM은 BPE와 비슷한 BLEU를 보였다.
 
@@ -249,7 +249,7 @@
 
 ### *Results with out-of-domain corpus*
 
-<div align ="center"><img src="[/uploads/1861065bcb27bf330b833ece83e7535c/image.png](https://user-images.githubusercontent.com/46083287/209086184-62afbfc3-45d2-4192-af6a-e65fc7da6e5b.png)" width="40%"></img></div>
+<div align ="center"><img src="https://user-images.githubusercontent.com/46083287/209086184-62afbfc3-45d2-4192-af6a-e65fc7da6e5b.png" width="40%"></img></div>
 
 - `open-domain`에서의 subword 정규화의 효과를 보기 위해, 회사 내부의 다양한 장르(Web, patents, query log)로 시스템을 평가했다.
   - `KFTT`와 `ASPEC` 말뭉치는 말뭉치가 너무 특정되어 있어 제외함. (예비 실험에서 성능이 많이 떨어졌음)
@@ -274,7 +274,7 @@
 
 ### *Impact of sampling hyperparameters*
 
-<div align ="center"><img src="[/uploads/5ff8a30eed8367293868b8116ff1a3bd/image.png](https://user-images.githubusercontent.com/46083287/209086267-b2c477e3-a87b-4450-94c2-a79f2bea0a86.png)" width="40%"></img></div>
+<div align ="center"><img src="https://user-images.githubusercontent.com/46083287/209086267-b2c477e3-a87b-4450-94c2-a79f2bea0a86.png" width="40%"></img></div>
 
 - subword 정규화에는 2가지 하이퍼 파라미터가 있다. [`l`: 샘플링 후보의 크기, `α`: smoothing 상수]
   - 위는 IWSLT15(en -> vi) 데이터셋에서의 하이퍼파라미터의 변화에 따른 BLEU 점수를 보여준다.
