@@ -28,4 +28,6 @@ Record your paper reviews according to the following style.
 
 - [Neural Machine Translation of Rare Words with Subword Units[ACL2016]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/BPE.md)
 
+- [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
+
 ### Word Embedding
