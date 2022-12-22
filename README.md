@@ -16,6 +16,8 @@
 
 ### Language Model
 
+- TBD
+
 ### Neural Network
 
 - [Deep Learning[Nature2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/Neural_Network/Deep_Learning.md)
@@ -26,7 +28,11 @@
 
 ### Text Generation
 
+- TBD
+
 ### Text Style Transfer
+
+- TBD
 
 ### Tokenization
 
@@ -37,6 +43,8 @@
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
 
 ### Word Embedding
+
+- TBD
 
 ### Member
 
