@@ -1,5 +1,11 @@
 # Papers that we read
 
+This repository was made for recapping and finding paper reviews easier.
+
+Record your paper reviews according to the following style.
+
+`[Paper Title][Conf or Journal, Year]`
+
 ### Language Model
 
 ### Neural Network
