@@ -42,7 +42,7 @@
 
 ### *Model*
 
-<div align="center"><img src="[/uploads/342fe6e5ae682ea9144d134685520b4d/image.png](https://user-images.githubusercontent.com/46083287/209088719-6342b0ee-f7c0-4d70-ad08-46b8e487201f.png)" width="70%"></img></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/46083287/209088719-6342b0ee-f7c0-4d70-ad08-46b8e487201f.png" width="70%"></img></div>
 
 <br></br>
 
