@@ -37,3 +37,9 @@
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
 
 ### Word Embedding
+
+### Member
+
+- JunHa-Hwang, hwang_junha@naver.com, ChungBuk National Univ(Undergraduate).
+- SeungDong-Lee, sdlee130@naver.com, ChungBuk National Univ(Undergraduate).
+- EunJin-Kim, dw0815@chungbuk.ac.kr, ChungBuk National Univ(Graduate)
