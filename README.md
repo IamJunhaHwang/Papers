@@ -26,4 +26,6 @@ Record your paper reviews according to the following style.
 
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing[EMNLP2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/SentencePiece.md)
 
+- [Neural Machine Translation of Rare Words with Subword Units[ACL2016]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/BPE.md)
+
 ### Word Embedding
