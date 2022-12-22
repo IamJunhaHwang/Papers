@@ -14,6 +14,8 @@ Record your paper reviews according to the following style.
 
 - [Character-level Convolutional Networks for Text Classification[NIPS2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Character-level%20Convolutional%20Networks%20for%20Text%20Classification.md)
 
+- [Convolutional Neural Networks for Sentence Classification[EMNLP2014]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Convolutional%20Neural%20Networks%20for%20Sentence%20Classification.md)
+
 ### Language Model
 
 ### Neural Network
