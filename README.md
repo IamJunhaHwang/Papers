@@ -1,12 +1,10 @@
 # Papers that we read
 
-> All members should read at least one paper every week
+> 모든 구성원들은 적어도 매주 적어도 한 편의 논문을 읽고 리뷰
 
-This repository was made for recapping and finding paper reviews easier.
+이 레포지토리는  논문 리뷰를 더 쉽게 찾을 수 있도록 만들어졌습니다.
 
-Record your paper reviews according to the following style.
-
-`[Paper Title][Conf or Journal, Year]`
+템플릿: `[Paper Title][Conf or Journal, Year]`
 
 --------------
 
