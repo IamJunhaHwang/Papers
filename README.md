@@ -1,10 +1,14 @@
 # Papers that we read
 
+> All members should read at least one paper every week
+
 This repository was made for recapping and finding paper reviews easier.
 
 Record your paper reviews according to the following style.
 
 `[Paper Title][Conf or Journal, Year]`
+
+--------------
 
 ### Language Model
 
