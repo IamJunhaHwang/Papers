@@ -10,6 +10,10 @@ Record your paper reviews according to the following style.
 
 --------------
 
+### General NLP
+
+- [Character-level Convolutional Networks for Text Classification[NIPS2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Character-level%20Convolutional%20Networks%20for%20Text%20Classification.md)
+
 ### Language Model
 
 ### Neural Network
