@@ -24,4 +24,6 @@ Record your paper reviews according to the following style.
 
 ### Tokenization
 
+- [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing[EMNLP2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/SentencePiece.md)
+
 ### Word Embedding
