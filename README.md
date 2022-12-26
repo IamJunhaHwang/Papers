@@ -20,7 +20,7 @@
 
 ### Natural Language Understanding
 
-- TBD
+- [GPT Understands, Too[arxiv:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Natural_Language_Understanding/GPT%20Understands%2C%20Too.md)
 
 ### Neural Network
 
