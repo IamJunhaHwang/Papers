@@ -59,6 +59,6 @@
 
 ### Member
 
-- JunHa-Hwang, hwang_junha@naver.com, ChungBuk National Univ(Undergraduate).
-- SeungDong-Lee, sdlee130@naver.com, ChungBuk National Univ(Undergraduate).
+- JunHa-Hwang, hwang_junha@naver.com, ChungBuk National Univ(Bachelor and master course)
+- SeungDong-Lee, sdlee130@naver.com, ChungBuk National Univ(Bachelor and master course)
 - EunJin-Kim, dw0815@chungbuk.ac.kr, ChungBuk National Univ(Master course)
