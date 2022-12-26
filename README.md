@@ -30,6 +30,9 @@
 
 - [Multiturn dialogue generation by modeling sentence-level and discourse-level contexts[nature scientific report 2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Multiturn%20dialogue%20generation.md)
 
+- [Instance-wise Prompt Tuning for Pretrained Language Models[arxiv]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Instance-wise%20Prompt%20Tuning%20for%20Pretrained%20Language%20Models.md)
+
+
 ### Text Style Transfer
 
 - TBD
