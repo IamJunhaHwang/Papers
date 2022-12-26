@@ -41,7 +41,7 @@
 
 ### Text Style Transfer
 
-- TBD
+- [Story-level Text Style Transfer: A Proposal[ACL2020]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Style_Transfer/Story-level%20Text%20Style%20Transfer:%20A%20Proposal.md)
 
 ### Tokenization
 
