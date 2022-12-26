@@ -1,0 +1,112 @@
+#### 논문 - GPT Understands, Too
+
+- 저자: Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang
+- [논문 링크](https://arxiv.org/pdf/2103.10385.pdf)
+-------------
+- **목적**
+  - 언어 모델의 pre-training은 많은 자연어 처리 task에서 성공적인 접근법임
+    - 오랫동안 연구자들은 GPT 계열 모델들이 fine-tuning이 있는 NLU task에서 성능이 떨어진다는 것을 관찰했으며, 본질적으로 언어 이해에 적합하지 않다고 가정했었음
+  - 거대한 unidirectional 언어 모델인 GPT-3의 성공은 GPT-3가 자연어 이해에 효과가 있을 것이라고 기대하게 함
+    - 그러나 가장 성능 좋은 프롬프트를 수작업으로 만드는 것은 매우 어렵고 비현실적으로 큰 유효성 검사 세트를 필요로 함
+    - 이러한 문제를 고려하여 최근 연구는 discrete prompts를 자동으로 검색하여 찾는 데 초점을 맞추고 있음
+  - 본 연구에서는 GPT와 NLU application 사이의 격차를 해소하기 위해 continuous space에서 프롬프트를 자동으로 검색하는 새로운 방법인 P-tuning 제안
+    - Ptuning은 pretrainig된 언어 모델에 대한 입력으로 제공되는 프롬프트 역할을 하기 위해 몇가지 연속적인 자유 매개 변수를 활용
+    - 그 다음 경사 하강법을 사용하여 연속적인 프롬프트를 최적화함
+  - the LAMA (Petroni et al., 2019) 지식 탐색과 SuperGLUE(Wang et al., 2019b)의 두 가지 NLU 벤치마크에서 P-tuning 기반 GPT를 조사
+  - GPT P-tuning을 통해 자연어 이해에서 BERT만큼 경쟁력 있음을 보여줌
+  - P-tuning이 few-shot 및 fully supervised 설정 모두에서 GPT와 BERT를 개선하는 일반적인 방법임을 보여줌
+  - P-tuning을 사용하는 ALBERT가 이전 접근 방식을 크게 능가하고 몇 번의 SUpuerGLUE 벤치 마크에서 SOTA 달성
+----------------------------
+- **방법**
+  - P-tuning 구현 제시
+  - 개별 프롬프트와 마찬가지로 P-tuning은 입력의 noninvasive인 수정만 적용
+  - P-tuning은 pretrained 언어 모델의 입력 임베딩을 차등 출력 임베딩으로 대체함
+  - Arichitecture
+    - 사전 훈련된 모델 M이 주어지면 일련의 입력 토큰은 사전 훈련된 임베딩 계층에 의해 입력 인베딩에 매핑됨
+    - context x는 특정 시나리오에서 종종 다운스트림 처리를 위해 대상 토큰 y 집합의 출력 임베딩을 사용
+      - 예를 들어 사전 훈련에서 x는 마스크되지 않은 토큰, y는 [MASK] 토큰 등을 나타냄
+    - 프롬프트 P의 기능은 context x, target y 및 그 자체를 템플릿 T로 구성하는 것
+      - 예를 들어 한 국가의 수도를 예측하는 작업에서 템플릿은 "Britain의 수도는 [MASK]"일 수 있으며 여기서 Britain 은 context이고 [MASK]는 target임   
+      ![image](https://user-images.githubusercontent.com/49019292/209498236-362e0772-bcc6-42ce-8654-ad197abcfdb7.png)
+    - V가 언어 모델 M의 어휘를 참조하도록
+      - [P<sub>i</sub>]는 템플릿 T에서 i<sup>th</sup> 프롬프트 토큰을 의미함    
+      - 템플릿 ![image](https://user-images.githubusercontent.com/49019292/209498256-427b49cf-c6b5-4e0a-beb8-7028925694e9.png)는 다음과 같은 전통적인 이산 프롬프트와 비교됨   
+      ![image](https://user-images.githubusercontent.com/49019292/209498265-6c238ecb-a91b-454e-99e1-3b594e91e87a.png)   
+      - P-tuning은 대신 [P<sub>i</sub>]를 유사 토큰으로 간주하고 템플릿을 다음에 매핑함    
+      ![image](https://user-images.githubusercontent.com/49019292/209498288-4165be8f-1f1b-4354-b7b5-896e75fed413.png)   
+      - 여기서 h<sub>i</sub>은 embedding tensors임
+      - 다운스트림 손실 함수 L   
+      ![image](https://user-images.githubusercontent.com/49019292/209498294-bed9cc8b-e205-4ff2-a504-cd1f3a7b6222.png)  
+  - Optimization
+    - 두가지 최적화 과제에 직면해있음
+      - 1.Discreteness(이산성): M의 원래 단어 임베딩 e는 사전 훈련 후 이미 매우 이산적이 되었음
+      - 2. Association(연관성): 임베딩 값이 독립적이기보다 서로 의존적이여야 한다고 생각함
+        - 임베딩을 서로 연관시킬 수 있는 몇 가지 메커니즘이 필요
+      - 과제를 고려하여 P-tuning에서 프롬프트 인코더를 사용하여 h<sub>i</sub> 문제를 해결할 수 있는 매우 가벼운 신경망으로 구성
+      - 1번 문제를 위해 ReLU 활성화된 2층 MLP가 있는 LSTM을 선택
+      - 언어모델 M에 h'<sub>i</sub>를 포함하는 실제 입력은 다음과 같음   
+      ![image](https://user-images.githubusercontent.com/49019292/209498310-0c41c51c-72e4-4724-8d31-f1aa51e694cf.png)   
+  - 앵커 토큰을 거의 추가하지 않는 것이 SuperGLUE 벤치마크에서 일부 NLU task에 도움이 된다는 것을 발견
+--------------------------------------------
+- **실험 및 결과**
+  - NLU 벤치마크인 LAMA(Petroni 등, 2019) 지식 탐색과 SuperGlue(Wang 등, 2019b)에 대해 광범위한 실험을 수행
+  - P-tuning이 자연어 이해에 대한 GPT의 성능을 크게 향상시킬 수 있으며 BERT style 모델도 더 적은 수익으로 개선할 수 있음을 보여줌
+  - Knowledge Probing
+    - knowledge probing은 언어 모델이 pre-training을 통해 실제 지식을 얼마나 많이 얻었는지 평가함
+    - LAMA(Petroni et al., 2019) 데이터 세트는 지식 베이스에서 선택된 트리플에서 생성된 클로즈 테스트로 이를 평가
+      - 예를 들어 triple ( Dante, born-in, Florence)을 "Dante는 [MASK]에서 태어났다"라는 폐쇄 문장으로 변환한 다음 언어 모델에게 대상을 추론하도록 요청할 것임
+    - 매개변수 고정(미세조정X) 
+    - Dataset
+      - LAMA는 모든 답변을 단일 토큰 형식으로 적용함
+      - 41개의 Wikidata 관계와 34,039개 테스트 triple(즉, 모든 BERT 어휘를 포함하는 RAA-34K)로 구성된 원래의 RAA-TREX 데이터 세트 채택
+      - GPT와 BERT는 어휘가 다르기 때문에 GPT와 BERT의 어휘의 교차점을 다루는 다른 버전의 RAMA를 설정함
+        - 이 부분 집합은 약 29,000개의 테스트 triple을 더하며 이것을 LAMA-29k라고 명명
+      - TRE-x 데이터 세트에서 훈련 세트를 구성하는 AutoPrompt(Shin 등, 2020)의 설정을 따름
+    - Evaluation
+      - LAMA는 아래 표 1과 같은 각 관계에 대한 수공예 프롬프트를 제공함   
+        ![image](https://user-images.githubusercontent.com/49019292/209498324-a4856ee1-b836-4f7d-966e-d352ab1369e2.png)  
+      - GPT와 같은 단방향 언어 모델의 경우, RAMA의 원래 설정인 Transformer-XL(Dai et al., 2019)에 따라, 우리는 목표 위치 바로 전에 네트워크 출력을 사용
+      - P-tuning을 수행하는 측면에서 양방향 모델에는 (3, sub, 3, obj, 3) 템플릿을 사용하고 단방향 모델에는 (3, sub, 3, obj) 템플릿을 사용하며, 여기서 숫자는 프롬프트 토큰의 수를 나타냄
+      - learning rate는 1e-5로 설정, Adam optimizer 사용
+    - Result
+      - General performence
+        - 아래 표 2에 제시되어 있음   
+        ![image](https://user-images.githubusercontent.com/49019292/209498329-07afbdb3-4107-4ef8-8332-e3809e4ad92c.png)  
+  - SuperGLUE
+    - P-tuning을 평가하기 위해 SuperGLUE 벤치마크에 대한 실험 수행
+    - 총 8개의 NLU task가 있으며 이 중 7개에 중점을 둠
+      - Tasks include question answering (BoolQ (Clarket al., 2019a) & MultiRC (Khashabi et al., 2018)), textual entailment (CB (De Marneffe et al., 2019) & RTE (Dagan et al.,2005)), co-reference resolution (WiC (Pilehvar & CamachoCollados, 2018)), causal reasoning (COPA (Roemmele et al.,2011)), and word sense disambiguation (WSC (Levesque et al., 2012)) 
+    - fullysupervised setting and a few-shot setting 둘 다 고려 
+      - fullysupervised에서, 전체 훈련 세트(Dtrain)와 모델 선택 및 하이퍼 파라미터 튜닝을 위해 개발 세트(Ddev)를 사용 
+    - few-shot setting에선 few-shot version of SuperGLUE (also known as FewGlue) 채택
+      - 각 task는 32개의 train 데이터(Dtrain32)와 400 ~ 20000 사이의 크기가 다른 레이블 없는 추가 세트(Dlabeled)로 구성됨
+    - 우리는 NLU task를 blank 채우기 작업으로 재구성
+    - P-tuning은 초기 프롬프트 임베딩을 패턴 내의 다른 위치에 배치한 다음, 미리 훈련된 모델과 함께 프롬프트 임베딩을 미세 조정
+    - fully-supervised setting의 경우 Adam optimizer 사용
+    - hyperparameter grid search 사용
+      - 1e-5, 2e-5, 3e-5의 learning rate와 16, 32의 batch size 사용
+    - P-tuning은 모든 단방향, 양방향 모델에 사용 가능
+    - 총 계산의 척도가 유사한 모델 선택
+      - BERT-base와 GPT2-base를 비교하고 BERT-large와 GPT2-medium 비교
+    - Fully-supervised Learning
+      - 주요 결과는 아래 표 3과 표 4에 나와있음   
+      ![image](https://user-images.githubusercontent.com/49019292/209498337-81da8ae2-30e9-43b2-9cf5-7f8ec8cd14b9.png)   
+    - Few-shot learning
+      - 아래 표6은 다양한 수동 프롬프트와 p-tuning을 사용한 결과를 보여줌   
+      ![image](https://user-images.githubusercontent.com/49019292/209498347-df048af4-0e64-4e37-8c8b-8c9657d8f065.png)   
+      - 위의 표는 Ddev32를 사용하여 가장 잘 수행된 수동 프롬프트를 찾는 것이 불가능하다는 것을 증명
+      - 아래 표 5는 P-tuning을 통해 달성된 가장 최근의 SuperGLUE few-shot 학습에 대한 SOTA 결과를 보여줌
+ --------------------------------------
+- **고찰**
+  - 논문 내용과는 별개로, 매우 깔끔하게 쓰여져있는 것 같다...!
+  - 잘 읽혔고, 섹션이 나누어진 것도 보기 편하고 좋았다.
+  - 근데 논문은 내용은 알맹이가 없는 느낌?
+  - NLU 평가 벤치마크는 거의 처음 보는게 많은 것 같다.
+  - 가장 크게 기여한 건 결국, NLU task에서 GPT에서도 BERT만한 성능을 냈다라고 볼 수 있을 것 같다.
+    - 그리고 P-tuning을 제안한 것
+      - P-tuning은 본 논문에서 continous space에서 prompt를 자동으로 검색하는 새로운 방법이라고 소개하고 있다..
+      - 결국 서치 알고리즘이군..
+  - 언어모델은 확실히 베이스가 비슷해서 그런지, 조금 종류가 다른 task에도 비교적 쉽게 성능을 올릴 수 있는 것 같다. 
+  - 프롬프트가 조금만 바뀌어도 성능에 큰 차이가 있다고 하는데, 프롬프트가 성능에 끼치는 영향이 생각보다 매우 큰 듯 하다.
+    - 나는 프롬프트가 hyper parameter tuning 정도의 영향을 끼친다고 생각했는데, 몇 개 관련 논문을 읽으면서 아니라는 것도 알게 되었다.
+    -
