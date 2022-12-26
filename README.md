@@ -36,6 +36,8 @@
 
 - [Instance-wise Prompt Tuning for Pretrained Language Models[arxiv:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Instance-wise%20Prompt%20Tuning%20for%20Pretrained%20Language%20Models.md)
 
+- [Large Pre-trained Language Model의 P-tuning을 이용한 질의 정규화[제33회 한글 및 한국어 정보처리 학술대회 논문집 2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Large%20Pre-trained%20Language%20Model%EC%9D%98%20P-tuning%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%A7%88%EC%9D%98%20%EC%A0%95%EA%B7%9C%ED%99%94.md)
+
 
 ### Text Style Transfer
 
