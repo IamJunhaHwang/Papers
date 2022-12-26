@@ -1,0 +1,120 @@
+#### 논문 - Instance-wise Prompt Tuning for Pretrained Language Models
+
+- 저자: Yuezihan Jiang, Hao Yang, Junyang Lin, Hanyu Zhao, An Yang, Chang Zhou, Hongxia Yang, Zhi Yang, Bin Cui
+- [논문 링크](https://arxiv.org/abs/2206.01958)
+--------------------
+- **목적**
+  - 모든 매개 변수에 대한 fine-tuning은 본질적으로 메모리에 비효율적이고 다양한 downstream task를 위해 모델의 복사본이 필요함
+  - Prompt Learning은 대규모 PLM을 보다 cost-efficient로 만드는데 있어 효과적인 접근 방식임
+    - 모델이 엄청난 양의 지식을 수용했고 다운스트림 task의 핵심은 필요한 부분을 검색하는 것
+    - 이를 위해 prompt learning은 모델을 조정할 때 다운스트림 task의 domain을 제안하는 특정 "Prompts"를 PLM에 장착함
+    - 이러한 방식으로 PLM 매게 변수를 동결하고 프롬프트만 조정할 수 있으므로 large model을 조정하는 비용을 줄일 수 있음
+    - 이러한 방법은 튜닝 중에 task별 지식을 결합하여 다양한 다운스트림 작업을 개선하는 데 효과적인 것으로 나타났음
+  - task-based prompt의 주요 한계는 프롬프트가 너무 coarse-grained하고 입력 데이터의 세분화된 정보를 무시한다는 것
+  - SOTA 방법은 튜닝 작업 내의 모든 입력 데이터는 task domain을 암시하는 동일한 프롬프트를 공유함
+  - 그러나 task 외에도 input data에는 더 관련된 지식을 검색하는 데 도움이 될 수 있는 context도 포함되어 있음
+  - 입력 데이터 뒤에서 이러한 세분화된 지식을 포착하기 위해 input-agnostic prompts를 사용하는 대신 downstream task에 대해 PLM을 쿼리할 때 입력 데이터의 내부 지식을 통합하는 새로운 프롬프트 학습 패러다임인 Instance-wise Prompt Tuning(IPT)를 제안
+    - IPT의 핵심은 IPT strategy라고 불리는 모듈로, 입력 데이터의 각 인스턴스에 대한 프롬프트 헤드를 생성하여 PLM에 데이터 특정 지식을 주입하는 역할을 함
+      - 기본 버전 1개, 고급 버전 2개를 포함한 다양한 목표와 관점에서 설계된 서로 다른 IPT 전략을 제시
+  - Contribution1: IPT 컨셉
+    - 사전 훈련된 모델에 prompt 튜닝을 위한 입력별 지식을 주입하는 인스턴스별 프롬프트 튜닝의 개념과 워크플로우를 최초로 제안 
+  - Contribution2: knowledge-enhanced pretraining
+    -  데이터에 대한 더 많은 도메인 지식으로 프롬프트를 향상시키는 간단하고 효과적인 데이터 기반 사전 훈련 전략을 개발 
+  - Contribution3: Encoders for reducing training costs
+    - 사전 훈련된 임베딩을 변환하기 위해 인코더를 통합하여 임베딩을 동결하고 인코더만 조정할 수 있음 
+  - Contribution4: Experimental evaluation  
+    - 종합적인 실험을 통해 IPT의 효율성과 보편성을 확인할 수 있음
+------------------------------------------------
+- **방법** 
+  - Motivation
+    - formulation in Prompt learning
+      - Prompt learning 방법은 hard tokens’ 방식(e.g., task descriptions [36] and task-related words [34]) 혹은 soft tokens’ 방식 (e.g., task-based soft embeddings [18, 27])으로 표현된 일련의 프롬프트 토큰 H를 정의함
+      - text-to-text 패러다임에 따라 일반적으로 다운스트림 task을 cloze-style objectives로 변환
+      - 분류를 예로 들었을 때,
+        - input sentence x와 label y가 주어지면, 여기서 (𝑥, 𝑦) ∈ D는 dataset을 나타냄
+        - D는 학습 가능한 일련의 소프트 프롬프트 h를 구축하고 아래와 같이 교차 엔트로피 loss 모델을 최적화함   
+        ![image](https://user-images.githubusercontent.com/49019292/209497357-983296ad-421c-469e-a8e2-80f7065969f3.png)   
+        -  PLM은 고정된 상태로 유지
+    - Instance-specific Information Matters for Prompts
+      - 기존 방법의 중요한 특징 중 하나는 task-level prompt space임
+      - 입력의 각 인스턴스의 특정 내용에 관계없이 task의 모든 입력 데이터에 대해 공유 임베딩을 할당
+      - RoBERTa와 같은 대규모 PLM 및 프롬프트 튜닝을 실험하여 작업 수준에서 인스턴스 수준으로 변경하는 효과를 보여줌
+      - RoBERTa-large의 어휘 테이블에 있는 각 단어를 임베딩에 매핑하는 단일 공유 프롬프트 대신 토큰 수준 프롬프트 테이블을 초기화함
+      - 임베딩은 무작위로 초기화됨
+      - 다른 모든 설정은 vanilla prompt tuning과 동일하게 유지됨
+      - SuperGLUE의 두가지 벤치마크인 BoolQ and CB에서 실험을 수행
+      - vanilla prompt 튜닝을 PT로 표현하고 수정된 버전을 PT-v로 표현(아래 그림 1은 전체적인 결과를 보여줌)   
+      ![image](https://user-images.githubusercontent.com/49019292/209497383-4192d5f4-128b-428a-a739-d3ac7a98aaaa.png)   
+  - The Proposed method
+    - 먼저 IPT 기술의 공식화를 소개하고 세가지 인스턴스별 prompt 전략을 소개함
+    - Formulation and Overview
+      - IPT Formulation
+        - 일반적인 프롬프트 방법의 공식과 유사하고, 차이점은 프롬프트 형식에 있음
+        - 일반적으로 IPT 전략 모듈에 의해 인스턴스별 프롬프트를 생성하며 이는 G𝜔(𝜔으로 매개변수화됨)로 표시
+        - data instance(x, y)가 주어지면 IPT 전략은  𝑡 = {𝑡1, 𝑡2, · · · , 𝑡𝑘 } for 𝑥 by 𝑡 = G𝜔 (𝑥)에 대한 일련의 프롬프트 토큰을 생성
+          - 여기서 k는 각 인스턴스의 프롬프트 토큰 수를 나타내는 하이퍼 파라미터
+        - ![image](https://user-images.githubusercontent.com/49019292/209497430-091219a9-2588-4eff-89e9-e72029d94b69.png)에 의해 교차 스펙트럼 loss를 최소화함
+      - IPT Module in the Full Pipeline
+        - 프롬프트 조정 및 prefix 조정을 기본 프롬프트 모델로 채택하고 아래 그림2의 교육 과정에서 IPT 모듈이 작동하는 방식을 설명함   
+        ![image](https://user-images.githubusercontent.com/49019292/209497418-99953e6f-fcad-4a75-9cbf-2385d86048a4.png)   
+        - task-based 전략에 따라 prefix tuning 방식은 서로 다른 작업에 따라 공유 소프트 임베딩 공간을 할당함
+        - 다양한 요구에 대한 'IPT 전략' 파트 역할을 하는 세 가지 전략을 제안
+      - IPT Strategies
+        - 서로 다른 목표를 위해 설계된 세 가지 IPT 전략을 설명
+        - pre-training을 활용하여 인스턴스별 프롬프트에 고유한 데이터 지식을 부여하는 방법과 작업 성능을 향상시키기 위해 특정 작업에 이를 적용하는 방법을 보여줌
+        - Random IPT
+          - 어휘의 각 단어에 대한 prompt 임베딩 테이블을 무작위로 초기화
+          - 모델 튜닝과 비교할 때 IPT는 prompt 임베딩만 최적화되므로 비용이 훨씬 적게 들고 computational overhead가 없음
+        - Pretrained IPT
+          - 랜덤 IPT와 유사하게 사전 훈련된 IPT에는 튜닝을 위한 prompt 임베딩 테이블이 있음
+          - 경험적으로 데이터 기반 지식이 IPT에 더 많은 이점을 줄 수 있다고 가정
+          - 기존 방법이 프롬프트를 사용하여 downstream task의 task domain을 나타낼 수 있다는 점에 주목
+          - 알고리즘은 text의 숨겨진 의미를 거의 인식할 수 없음
+          - categorical 정보를 활용하여 프롬프트에 데이터 관련 지식을 부여하는 간단하면서도 효과적인 데이터 기반 pretraining 정책을 개발
+          - IPT pretraining을 위한 데이터 수집을 위해 Huggingface Datasets에서 데이터를 수집
+          - corpus를 분류하기 위해 위키피디아 분류법을 따르고 언어 corpus를 사회, 기술 등 13개의 범주로 나눔
+          - 학습된 임베딩의 가중치를 추출함(아래 그림 3은 pretraining 과정을 보여줌)   
+          ![image](https://user-images.githubusercontent.com/49019292/209497448-3553c080-e67c-42ab-81f6-b3dec0757317.png)   
+        - Encoder IPT
+          - Random IPT와 pretrained IPT 모두 임베딩을 도입하여 RoBERTa-large 매개 변수의 약 1%를 차지
+          - 계산 비용을 줄이기 위해 encoder IPT를 도입
+          - 표현 추출을 위한 임베딩 레이어와 표현 학습을 위한 신경망(CNN, RNN, MLP 등)을 가진 간단한 classifier 구축
+          - 우리는 임베딩 레이어를 수정하고 신경망을 tuning 할 수 있도록 함
+            - 따라서 최적화할 매개 변수의 양은 더 적어지고 계산 비용도 더 적어짐
+          -  이 기능은 IPT가 서로 다른 인코더를 가진 서로 다른 도메인으로 쉽게 확장될 수 있는 보편성을 제공
+---------------------------------------------------------
+- **실험 및 결과**
+  - 개방형 benchmark에서 IPT의 효과를 경험적으로 평가
+  - Datasets
+    - BoolQ, CB, RTE, MultiRC를 포함하여 NLU benchmark SuperGLUE의 다양한 작업 세트에서 다운스트림 성능을 연구
+    - IMDB, SST-2 및 AGNews의 개방형 benchmark에서 IPT를 평가
+  - Evaluation protocol
+    - 서로 다른 무작위 seed를 사용하여 5번의 실험에서 각 실험의 평균 성능을 측정
+    - 이 실험에서 K=32를 사용하고 frefix tuning을 기본 모델로 취함
+  - Baselines
+    - 주요 두 baseline은 prompt tuning과 prefix tuning
+    - IPT를 task-based prompt pre-training 방법 PPT와 비교
+  - Implementations
+    - OpenPrompt를 사용하여 IPT와 baseline 방법을 구현
+  - End-to-End Comparison
+    - 우리는 프롬프트 튜닝과 prefix 튜닝 모두에서 서로 다른 IPT 전략을 구현
+    - 기본 모델 M의 경우 제안된 인스턴스별 프롬프트 전략을 M에 적용함
+    - encoder IPT의 효과를 평가하기 위해 LSTM, TextCNN, MLP를 포함하여 서로 다른 유형의 일반적인 세가지 encoder를 채택
+    - 아래 표 2의 전체 데이터 체제에서 SuperGLUE의 4개 데이터 세트에 대한 결과가 요약되어 있음   
+     ![image](https://user-images.githubusercontent.com/49019292/209497478-cfc3ab41-dbb3-496b-8499-808769fa2db2.png)  
+    - 아래 표 3은 표준 fine-tuning과 IPT가 어떻게 비교되는지 보여줌   
+    ![image](https://user-images.githubusercontent.com/49019292/209497500-25c5dde6-3b94-4aa3-acf3-30557e14c560.png)
+    - 아래 표는 type-related 지식이 프롬프트에 미치는 영향에 대한 평가   
+    ![image](https://user-images.githubusercontent.com/49019292/209497510-dff6efa3-b0b0-4965-aec4-182ed8ac3f62.png)  
+    - 아래 표는 인스턴스별 프롬프트 생성 품질에 미치는 시퀀스 활용률의 영향 평가   
+    ![image](https://user-images.githubusercontent.com/49019292/209497524-f4e4651b-73ac-43d0-b333-ba336fa0d820.png)   
+--------------------------------------------------
+- **고찰**
+  - 논문이 너무 어렵다....
+  - 사실 절반 정도는 제대로 이해하지 못한 것 같다..:sob: 
+  - 그니까, 입력 데이터 instance에 여러 지식을 prompt에 주입한 다음에,
+    - pretrained model에 구체적인 context 정보를 제공하는 최초의 프롬프트 학습인 `IPT`를 제안하는 것...으로 이해했는데, 맞겠지?
+    - 그래서 제목도 instance-wise ~ 이었던 것
+  - 입력 데이터 instance에 지식을 주입할 때 입력 데이터의 주제에 맞는 지식을 주입하면 더 좋을 것 같단 생각이 문득 들었당 
+  - 수식도 어렵고 제안하는 방법도 간단하지만은 않은 것 같다 ㅠㅠㅠ
+  - Prompt tuning을 아직 완전히 이해하지 못해서 그런지, 이 내용도 전부 이해하지 못한 것 같다.
