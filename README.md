@@ -43,6 +43,8 @@
 
 - [Story-level Text Style Transfer: A Proposal[ACL:2020]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Style_Transfer/Story-level%20Text%20Style%20Transfer:%20A%20Proposal.md)
 
+- [Style Transfer from Non-Parallel Text by Cross-Alignment[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Style_Transfer/Style%20Transfer%20from%20Non-Parallel%20Text%20by%20Cross-Alignment.md)
+
 ### Tokenization
 
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing[EMNLP:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/SentencePiece.md)
@@ -50,6 +52,8 @@
 - [Neural Machine Translation of Rare Words with Subword Units[ACL:2016]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/BPE.md)
 
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
+
+
 
 ### Word Embedding
 
