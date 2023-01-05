@@ -118,7 +118,7 @@
 
 - 아래는 다른 단어 분할 기법을 통해 학습한 독일어 말뭉치의 통계
 
-<div align="center"><img src="[/uploads/9a743cb3ca44d7b9f53c5f36492fc14c/image.png](https://user-images.githubusercontent.com/46083287/209084319-7e39e969-fa69-4af5-a31a-7e5c0f159c31.png)" width="40%"></img></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/46083287/209084319-7e39e969-fa69-4af5-a31a-7e5c0f159c31.png" width="40%"></img></div>
 
   - 문자 n-gram은 `n`을 어떻게 선택하느냐에 따라 시퀀스 길이와 vocab 크기 간의 `trade-off`가 다르다.
 
