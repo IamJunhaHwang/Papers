@@ -147,7 +147,7 @@
 
 <div align="center"><img src="https://user-images.githubusercontent.com/46083287/209084419-3f21b6b5-f7d8-4a35-b0b0-3237c1d53687.png" width="70%"></img></div>
 
-- back-off dictionary는 희소 단어에 대한 `unigram F1`을 높여준다. (하지만 고유명사를 글자그대로 옮길 수 없으므로 En ->Ru 에서의 향상은 적다.)
+- back-off dictionary는 희소 단어에 대한 `unigram F1`을 높여준다. (하지만 러시아어는 키릴 문자를 사용하기 때문에 고유명사를 글자 그대로 옮기기 힘드므로 En ->Ru 에서의 향상은 적다.)
 
 - Unigram F1 socre
   - BPE-J90K(BPE 심볼을 합친 것)이 BPE-60K(각각의 BPE)와 C2-50K(character bigram)보다 좋았다.
