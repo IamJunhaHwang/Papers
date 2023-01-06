@@ -204,7 +204,7 @@
 
 - `BPE`를 사용함으로써, 가변 길이의 `subword unit`로 구성된 기존보다 작은 vocab을 만들 수 있음.
 
-- 기존 NMT 모델들보다 `subword mode`l을 사용한 모델이 OOV와 희소 단어에 대한 번역에 좋은 성능을 보임.
+- 기존 NMT 모델들보다 `subword model`을 사용한 모델이 OOV와 희소 단어에 대한 번역에 좋은 성능을 보임.
 
 - 향후 연구로 `language pair`와 훈련 데이터의 양에 따라 자동적으로 최적의 `vocab size`를 학습하는 것이 될 것 같음. (본 논문에서는 `vocab size`를 임의로 정함)
   - 또한, subword unit을 더욱 `alignable`하게 만들기위한 `bilingually informed segmentation algorithm`이 잠재성이 있다고 생각함. (타겟 텍스트에 의존하지 않는)
