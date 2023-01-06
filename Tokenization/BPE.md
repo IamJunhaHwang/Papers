@@ -124,7 +124,7 @@
 
   - 문자 n-gram은 `n`을 어떻게 선택하느냐에 따라 시퀀스 길이와 vocab 크기 간의 `trade-off`가 다르다.
 
-  - uni-gram 표현이 말그대로 open-vocabulary지만(UNK 토큰이 제일 많은) 예비 실험에서 성능이 너무 안좋아서 bi-gram 표현으로 실험할 것. (뒤의 실험)
+  - uni-gram 표현이 말그대로 open-vocabulary지만 예비 실험에서 성능이 너무 안좋아서 bi-gram 표현으로 실험함. (뒤의 실험)
     - 성능은 더 좋으나, 여전히 training set vocab으로 만들 수 없는 토큰들이 있다.
 
   - 여러 단어 분할 기법의 통계도 보았지만 이는 `vocab` 크기만 줄였을 뿐, 본 논문의 목적인 OOV 문제에 대한 해결책은 아니므로 적합하지 않음.
