@@ -48,6 +48,8 @@
 
 - [A Recipe for Arbitrary Text Style Transfer with Large Language Models[ACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Style_Transfer/A%20Recipe%20for%20Arbitrary%20Text%20Style%20Transfer%20with%20Large%20Language%20Models.md)
 
+- [APPDIA: A Discourse-aware Transformer-based Style Transfer Model for Offensive Social Media Conversations[COLING:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Style_Transfer/APPDIA.md)
+
 ### Tokenization
 
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing[EMNLP:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/SentencePiece.md)
