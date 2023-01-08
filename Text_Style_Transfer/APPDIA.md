@@ -4,6 +4,7 @@
 
 * url: https://aclanthology.org/2022.coling-1.530/
 * conf: coling 2022
+* Authors: Katherine Atwell, Sabit Hassan, Malihe Alikhani
 * github: https://github.com/sabithsn/appdia-discourse-style-transfer
 
 ### 1. Abstract + Introduction
