@@ -18,6 +18,10 @@
 
 - [Improving Language Understanding by Generative Pre-Training[ARXIV:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/Improving%20Language%20Understanding%20by%20Generative%20Pre-Training.md)
 
+### Machine Translation
+
+- [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
+
 ### Natural Language Understanding
 
 - [GPT Understands, Too[arxiv:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Natural_Language_Understanding/GPT%20Understands%2C%20Too.md)
