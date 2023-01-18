@@ -26,6 +26,8 @@
 
 - [GPT Understands, Too[arxiv:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Natural_Language_Understanding/GPT%20Understands%2C%20Too.md)
 
+- [사전학습 언어모델 기반 트랜스포머를 활용한 의미유사도기반 자연어이해 의도파악 방법[정보과학회논문지:2020]](https://github.com/DAILAB-CBNU/Papers/blob/main/Natural_Language_Understanding/%EC%82%AC%EC%A0%84%ED%95%99%EC%8A%B5%20%EC%96%B8%EC%96%B4%EB%AA%A8%EB%8D%B8%20%EA%B8%B0%EB%B0%98%20%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EC%9D%98%EB%AF%B8%EC%9C%A0%EC%82%AC%EB%8F%84%EA%B8%B0%EB%B0%98%20%EC%9E%90%EC%97%B0%EC%96%B4%EC%9D%B4%ED%95%B4%20%EC%9D%98%EB%8F%84%ED%8C%8C%EC%95%85%20%EB%B0%A9%EB%B2%95.md)
+
 ### Neural Network
 
 - [Deep Learning[Nature:2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/Neural_Network/Deep_Learning.md)
