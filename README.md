@@ -42,6 +42,7 @@
 
 - [Text based personality prediction from multiple social media data sources using pre‑trained language model and model averaging[JBD:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Text%20based%20personality%20prediction%20from%20multiple%20social%20media%20data%20sources%20using%20pre%E2%80%91trained%20language%20model%20and%20model%20averaging.md)
 - [The Emotion is Not One-hot Encoding: Learning with Grayscale Label for Emotion Recognition in Conversation[INTERSPEECH:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/The%20Emotion%20is%20Not%20One-hot%20Encoding.md)
+- [Fine-grained Sentiment Classification using BERT[AITB:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Fine-grained%20Sentiment%20Classification%20using%20BERT.md)
 
 ### Text Generation
 
