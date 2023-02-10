@@ -18,7 +18,9 @@
 
 - [Improving Language Understanding by Generative Pre-Training[ARXIV:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/Improving%20Language%20Understanding%20by%20Generative%20Pre-Training.md)
 
-- [$A^2$-Nets: Double Attention Networks[NIPS:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/A2-Nets:%20Double%20Attention%20Networks.md)
+- [A^2-Nets: Double Attention Networks[NIPS:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/A2-Nets:%20Double%20Attention%20Networks.md)
+
+- [Universal Language Model Fine-tuning for Text Classification[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/ULMFiT.md)
 
 ### Machine Translation
 
