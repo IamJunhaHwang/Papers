@@ -61,6 +61,9 @@
   - $Attention(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$
 
   - additive attention보다 dot-product attention이 실제로 더 빠르고 공간효율이 좋지만 $d_k$가 커지게 되면 내적 값도 커지게 되어 공간이 너무 커져서 softmax가 너무 작은 gradient 갖게 된다. (그래서 additive attention이 더 좋은 성능을 보였음)
+
+  - 즉, $d_k$ 가 커지면 분산도 커지므로 softmax 값 각각이 매우 지엽적인 값을 갖게 될 수 있음.
+  
   - 위를 막기 위해  $\sqrt{d_k}$로 스케일링함
 
 <div align="center"><img src="https://user-images.githubusercontent.com/46083287/212309052-3856b0a0-d328-43e5-b22d-791395a34c53.png" width="55%"></img> 출처: 구글 BERT의 모든 것 </div>
