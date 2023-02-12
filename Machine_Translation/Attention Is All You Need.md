@@ -52,7 +52,7 @@
 
 - **Scaled Dot-Product Attention**
 
-  - input은 $ d_k $ 의 차원을 가지는 queries & keys, $d_v$ 의 차원을 가지는 value로 구성. [query는 행렬 Q, key는 행렬 K, value는 행렬 V로 계산하게 된다]
+  - input은 $d_k$ 의 차원을 가지는 queries & keys, $d_v$ 의 차원을 가지는 value로 구성. [query는 행렬 Q, key는 행렬 K, value는 행렬 V로 계산하게 된다]
  
   - query 하나와 모든 key들을 내적한 후 $\sqrt{d_k}$ 로 나눈다. 그리고 value의 가중치를 얻기 위해 `softmax`를 적용한다.
 
