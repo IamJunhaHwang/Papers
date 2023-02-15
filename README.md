@@ -30,6 +30,8 @@
 
 - [An Overview of Multi-Task Learning in Deep Neural Networks[arxiv:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Multi-Task_Learning/An%20Overview%20of%20Multi-Task%20Learning%20in%20Deep%20Neural%20Networks.md)
 
+- [Multitask Learning for Emotion and Personality Detection[IEEE TRANSACTION ON AFFECTIVE COMPUTING:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Multi-Task_Learning/Multitask%20Learning%20for%20Emotion%20and%20Personality%20Detection.md)
+
 ### Natural Language Understanding
 
 - [GPT Understands, Too[arxiv:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Natural_Language_Understanding/GPT%20Understands%2C%20Too.md)
