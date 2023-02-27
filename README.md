@@ -24,6 +24,8 @@
 
 - [Universal Language Model Fine-tuning for Text Classification[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/ULMFiT.md)
 
+- [LLaMA: Open and Efficient Foundation Language Models[ARXIV:2023]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/LLaMA.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
