@@ -65,7 +65,19 @@
 
 - [Large Pre-trained Language Model의 P-tuning을 이용한 질의 정규화[제33회 한글 및 한국어 정보처리 학술대회 논문집:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Large%20Pre-trained%20Language%20Model%EC%9D%98%20P-tuning%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%A7%88%EC%9D%98%20%EC%A0%95%EA%B7%9C%ED%99%94.md)
 
-- [Model of Multi-turn Dialogue in Emotional Chatbot[TAAI:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Model%20of%20Multi-turn%20Dialogue%20in%20Emotional%20Chatbot.md)
+- [A character-Centric Neural Model for Automated Story Generation](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/A%20character-Centric%20Neural%20Model%20for%20Automated%20Story%20Generation.md)
+
+- [Pretrained Language Models for Text Generation: A Survey](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Pretrained%20Language%20Models%20for%20Text%20Generation:%20A%20Survey.md)
+
+- [Dialogue Generation in Character-based Interactive Storytelling](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Dialogue%20Generation%20in%20Character-based%20Interactive%20Storytelling.md)
+
+- [Musical song lyrics generation system using GPT-2 based on character’s MBTI Tendency](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Musical%20song%20lyrics%20generation%20system%20using%20GPT-2%20based%20on%20character%E2%80%99s%20MBTI%20Tendency.md)
+
+- [Perceived or Not Perceived: Film Character Models for Expressive NLG](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Perceived%20or%20Not%20Perceived:%20Film%20Character%20Models%20for%20Expressive%20NLG.md)
+
+- [감성 및 감정 단어 마스킹 기반 BERT와 GPT 파이프라인 방식을 통한 감정 문장 생성](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/%EA%B0%90%EC%84%B1%20%EB%B0%8F%20%EA%B0%90%EC%A0%95%20%EB%8B%A8%EC%96%B4%20%EB%A7%88%EC%8A%A4%ED%82%B9%20%EA%B8%B0%EB%B0%98%20BERT%EC%99%80%20GPT%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8%20%EB%B0%A9%EC%8B%9D%EC%9D%84%20%ED%86%B5%ED%95%9C%20%EA%B0%90%EC%A0%95%20%EB%AC%B8%EC%9E%A5%20%EC%83%9D%EC%84%B1.md)
+
+- [Generating Expository Dialogue from Monologue: Motivation, Corpus and Preliminary Rules](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Generating%20Expository%20Dialogue%20from%20Monologue:%20Motivation%2C%20Corpus%20and%20Preliminary%20Rules.md)
 
 
 ### Text Style Transfer
@@ -78,6 +90,8 @@
 
 - [APPDIA: A Discourse-aware Transformer-based Style Transfer Model for Offensive Social Media Conversations[COLING:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Style_Transfer/APPDIA.md)
 
+- [P-Tuning: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Style_Transfer/P-Tuning:%20Prompt%20Tuning%20Can%20Be%20Comparable%20to%20Fine-tuning%20Across%20Scales%20and%20Tasks.md)
+
 ### Tokenization
 
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing[EMNLP:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/SentencePiece.md)
@@ -85,6 +99,11 @@
 - [Neural Machine Translation of Rare Words with Subword Units[ACL:2016]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/BPE.md)
 
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
+
+
+### Character motivation
+
+- [Modeling Human Motives and Emotions from Personal Narratives Using External Knowledge And Entity Tracking](https://github.com/DAILAB-CBNU/Papers/blob/main/Character%20motivation/Modeling%20Human%20Motives%20and%20Emotions%20from%20Personal%20Narratives%20Using%20External%20Knowledge%20And%20Entity%20Tracking.md)
 
 
 
