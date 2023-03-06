@@ -17,7 +17,7 @@ TST 태스크를 위해 labeling 되어 있는 데이터를 필요로 했고, la
 
   1. label, train 없이 large-LM으로 직관적이게 TST 수행하는 방법 제시
  
-  2. human evaluation에서 표준과 비표 TST 모두 좋은 성능을 보임.
+  2. human evaluation에서 표준과 비표준 TST 모두 좋은 성능을 보임.
   
   3. 본 논문에서 제시한 방법을 구현한 텍스트 수정 UI의 사용자가 이야기하는 현실에서 필요한 Style Transfer를 분석
 
