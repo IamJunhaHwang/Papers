@@ -8,6 +8,14 @@
 
 --------------
 
+### Character motivation
+
+- [Modeling Human Motives and Emotions from Personal Narratives Using External Knowledge And Entity Tracking](https://github.com/DAILAB-CBNU/Papers/blob/main/Character%20motivation/Modeling%20Human%20Motives%20and%20Emotions%20from%20Personal%20Narratives%20Using%20External%20Knowledge%20And%20Entity%20Tracking.md)
+
+### Dataset
+
+- [PANDORA Talks: Personality and Demographics on Reddit[NAACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/PANDORA.md)
+
 ### General NLP
 
 - [Character-level Convolutional Networks for Text Classification[NIPS:2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Character-level%20Convolutional%20Networks%20for%20Text%20Classification.md)
@@ -99,11 +107,6 @@
 - [Neural Machine Translation of Rare Words with Subword Units[ACL:2016]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/BPE.md)
 
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
-
-
-### Character motivation
-
-- [Modeling Human Motives and Emotions from Personal Narratives Using External Knowledge And Entity Tracking](https://github.com/DAILAB-CBNU/Papers/blob/main/Character%20motivation/Modeling%20Human%20Motives%20and%20Emotions%20from%20Personal%20Narratives%20Using%20External%20Knowledge%20And%20Entity%20Tracking.md)
 
 
 
