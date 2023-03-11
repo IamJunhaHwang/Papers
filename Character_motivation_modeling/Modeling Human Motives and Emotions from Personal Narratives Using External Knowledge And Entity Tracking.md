@@ -1,6 +1,6 @@
 #### 논문 - Modeling Human Motives and Emotions from Personal Narratives Using External Knowledge And Entity Tracking
 - 저자: Prashanth Vijayaraghavan, Deb Roy (MIT Media Lab)
-- ACM 2021
+- WWW 2021
 - [논문 링크](https://dl.acm.org/doi/pdf/10.1145/3442381.3449997)
 ------------------------------------------------------------------
 - **목적**
