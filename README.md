@@ -44,6 +44,8 @@
 
 - [Multitask Learning for Emotion and Personality Detection[IEEE TRANSACTION ON AFFECTIVE COMPUTING:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Multi-Task_Learning/Multitask%20Learning%20for%20Emotion%20and%20Personality%20Detection.md)
 
+- [Recommending What Video to Watch Next: A Multitask Ranking System[RecSys2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Multi-Task_Learning/Recommending%20What%20Video%20to%20Watch%20Next:%20A%20Multitask%20Ranking%20System.md)
+
 ### Named Entity Recognition
 
 - [텍스트 채우기와 적대 신경망을 이용한 개체명 인식 데이터 확장[정보과학회논문지:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Named%20Entity%20Recognition/%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%B1%84%EC%9A%B0%EA%B8%B0%EC%99%80%20%EC%A0%81%EB%8C%80%20%EC%8B%A0%EA%B2%BD%EB%A7%9D%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B0%9C%EC%B2%B4%EB%AA%85%20%EC%9D%B8%EC%8B%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%99%95%EC%9E%A5.md)
