@@ -67,6 +67,10 @@
 - [Fine-grained Sentiment Classification using BERT[AITB:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Fine-grained%20Sentiment%20Classification%20using%20BERT.md)
 - [Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks[SBP-BRiMS:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Aspect%20Level%20Sentiment%20Classification%20with%20Attention-over-Attention%20Neural%20Networks.md)
 
+### Sentiment Analysis
+
+- [Multi-Domain Targeted Sentiment Analysis[NAACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Sentiment_Analysis/Multi-Domain_Targeted_SA.md)
+
 ### Text Generation
 
 - [Multiturn dialogue generation by modeling sentence-level and discourse-level contexts[nature scientific report:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Text_Generation/Multiturn%20dialogue%20generation.md)
