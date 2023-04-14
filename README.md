@@ -68,6 +68,7 @@
 - [The Emotion is Not One-hot Encoding: Learning with Grayscale Label for Emotion Recognition in Conversation[INTERSPEECH:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/The%20Emotion%20is%20Not%20One-hot%20Encoding.md)
 - [Fine-grained Sentiment Classification using BERT[AITB:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Fine-grained%20Sentiment%20Classification%20using%20BERT.md)
 - [Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks[SBP-BRiMS:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Aspect%20Level%20Sentiment%20Classification%20with%20Attention-over-Attention%20Neural%20Networks.md)
+- [You Are What You Talk About: Inducing Evaluative Topics for Personality Analysis[EMNLP2022-FINDINGS]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/you%20are%20what%20you%20talk%20about.md)
 
 ### Sentiment Analysis
 
