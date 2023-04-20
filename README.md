@@ -37,6 +37,8 @@
 
 - [exBERT: Extending Pre-trained Models with Domain-specific Vocabulary Under Constrained Training Resources[EMNLP:2020-FINDINGS]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/exBERT.md)
 
+- [Fine-tune BERT with Sparse Self-Attention Mechanism[EMNLP|IJCNLP:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/Fine-tune%20BERT%20with%20Sparse%20Self-Attention%20Mechanism.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
