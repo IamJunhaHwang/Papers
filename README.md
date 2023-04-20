@@ -39,6 +39,8 @@
 
 - [Fine-tune BERT with Sparse Self-Attention Mechanism[EMNLP|IJCNLP:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/Fine-tune%20BERT%20with%20Sparse%20Self-Attention%20Mechanism.md)
 
+- [What Does BERT Look At? An Analysis of BERT's Attention[BlackBoxNLP:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/What%20Does%20BERT%20Look%20At%3F%20An%20Analysis%20of%20BERT's%20Attention.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
