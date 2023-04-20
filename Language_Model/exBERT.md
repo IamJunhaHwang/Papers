@@ -55,7 +55,7 @@ exBERT를 위해, 기존 BERT embedding을 확장했으며 이에 따른 `domain
 
 위 그림의 `b`처럼 확장 모듈을 추가해 기존 BERT(`off-the-shelf`)를 확장한다.
 
-`off-the-shelf`($T_{ofs}(\cdot)$)와 확장 모듈($T_{ext}(\cdot)$)을 조합하기 위해 아래와 같은 가중합을 사용한다.
+`off-the-shelf`( $T_{ofs}(\cdot)$ )와 확장 모듈( $T_{ext}(\cdot)$ )을 조합하기 위해 아래와 같은 가중합을 사용한다.
 
 $H^{l+1} = T_{ofs}(H^l)\cdot \sigma(w(H^l)) + T_{ext}(H^l)\cdot (1-\sigma(w(H^l))$
 
