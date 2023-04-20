@@ -15,6 +15,7 @@
 ### Dataset
 
 - [PANDORA Talks: Personality and Demographics on Reddit[NAACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/PANDORA.md)
+- [Style is NOT a single variable: Case Studies for Cross-Style Language Understanding[ACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/Style%20is%20NOT%20a%20single%20variable.md)
 
 ### General NLP
 
