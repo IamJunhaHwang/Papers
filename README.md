@@ -12,6 +12,10 @@
 
 - [Modeling Human Motives and Emotions from Personal Narratives Using External Knowledge And Entity Tracking[WWW2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Character_motivation_modeling/Modeling%20Human%20Motives%20and%20Emotions%20from%20Personal%20Narratives%20Using%20External%20Knowledge%20And%20Entity%20Tracking.md)
 
+### Curriculum Learning in LM
+
+- []()
+
 ### Dataset
 
 - [PANDORA Talks: Personality and Demographics on Reddit[NAACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/PANDORA.md)
