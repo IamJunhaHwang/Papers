@@ -47,6 +47,8 @@
 
 - [KcBERT: 한국어 댓글로 학습한 BERT[제32회 한글 및 한국어 정보처리 학술대회 논문집:2020]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/KcBERT:%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%EB%8C%93%EA%B8%80%EB%A1%9C%20%ED%95%99%EC%8A%B5%ED%95%9C%20BERT.md)
 
+- [Language Models are Unsupervised Multitask Learners[Preprint:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/GPT-2.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
