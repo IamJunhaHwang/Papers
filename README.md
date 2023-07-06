@@ -83,6 +83,10 @@
 - [Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks[SBP-BRiMS:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Aspect%20Level%20Sentiment%20Classification%20with%20Attention-over-Attention%20Neural%20Networks.md)
 - [You Are What You Talk About: Inducing Evaluative Topics for Personality Analysis[EMNLP2022-FINDINGS]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/you%20are%20what%20you%20talk%20about.md)
 
+### Prompt Learning
+
+- [Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference[EACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Prompt_Learning/PET.md)
+
 ### Sentiment Analysis
 
 - [Multi-Domain Targeted Sentiment Analysis[NAACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Sentiment_Analysis/Multi-Domain_Targeted_SA.md)
