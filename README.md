@@ -87,6 +87,8 @@
 
 - [Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference[EACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Prompt_Learning/PET.md)
 
+- [It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners[NAACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Prompt_Learning/PET2.md)
+
 ### Sentiment Analysis
 
 - [Multi-Domain Targeted Sentiment Analysis[NAACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Sentiment_Analysis/Multi-Domain_Targeted_SA.md)
