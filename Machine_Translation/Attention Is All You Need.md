@@ -81,7 +81,7 @@
   - $MultiHead(Q, K, V) = Concat(head_1, ..., head_h)W^O$ $\\ where \  head_i = Attention(Q{W_i}^Q, K{W_i}^K, V{W_i}^V$
     - 실제로는 Q, K, V에 input embedding을 넣음. ==> $Attention(X{W_i}^Q, X{W_i}^K, X{W_i}^V)$
 
-  - $h = 8$ 을 적용했고, $d_k = d_v = d_model / h = 64$ [512 / 8 = 64]
+  - $h = 8$ 을 적용했고, $d_k = d_v = d_{model} / h = 64$ [512 / 8 = 64]
 
 
 - **Applications of Attention in our Model**
