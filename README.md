@@ -12,6 +12,10 @@
 
 - [Modeling Human Motives and Emotions from Personal Narratives Using External Knowledge And Entity Tracking[WWW2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Character_motivation_modeling/Modeling%20Human%20Motives%20and%20Emotions%20from%20Personal%20Narratives%20Using%20External%20Knowledge%20And%20Entity%20Tracking.md)
 
+### Computer Vision
+
+- [AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE [ICLR:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Computer_Vision/ViT.md)
+
 ### Curriculum Learning in LM
 
 - [Efficient Pre-training of Masked Language Model via Concept-based Curriculum Masking[EMNLP2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Curriculum_Learning_in_LM/CCM.md)
