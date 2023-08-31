@@ -147,11 +147,6 @@
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
 
 
-### Vision
-
-- [AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE [ICLR:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Vison/ViT.md)
-
-
 
 ### Word Embedding
 
