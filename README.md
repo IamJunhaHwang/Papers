@@ -22,10 +22,12 @@
 
 - [Efficient Pre-training of Masked Language Model via Concept-based Curriculum Masking[EMNLP2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Curriculum_Learning_in_LM/CCM.md)
 
-### Dataset
+### Dataset & Subset Selection
 
 - [PANDORA Talks: Personality and Demographics on Reddit[NAACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/PANDORA.md)
+  
 - [Style is NOT a single variable: Case Studies for Cross-Style Language Understanding[ACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/Style%20is%20NOT%20a%20single%20variable.md)
+- [BERT on a Data Diet: Finding Important Examples by Gradient-Based Pruning[NeurIPS 2022 - workshop]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/BERT_on_a_Data_Diet.md)
 
 ### General NLP
 
