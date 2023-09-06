@@ -63,6 +63,10 @@
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
 
+### Multi-Modal
+
+- [Learning Transferable Visual Models From Natural Language Supervision[ICML:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Multi-Modal/CLIP.md)
+
 ### Multi-Task Learning
 
 - [An Overview of Multi-Task Learning in Deep Neural Networks[arxiv:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Multi-Task_Learning/An%20Overview%20of%20Multi-Task%20Learning%20in%20Deep%20Neural%20Networks.md)
