@@ -29,6 +29,8 @@
 - [Style is NOT a single variable: Case Studies for Cross-Style Language Understanding[ACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/Style%20is%20NOT%20a%20single%20variable.md)
 - [BERT on a Data Diet: Finding Important Examples by Gradient-Based Pruning[NeurIPS 2022 - workshop]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/BERT_on_a_Data_Diet.md)
 
+- [Deduplicating Training Data Makes Language Models Better[ACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/Deduplicating%20Training%20Data%20Makes%20Language%20Models%20Better.md)
+
 ### General NLP
 
 - [Character-level Convolutional Networks for Text Classification[NIPS:2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Character-level%20Convolutional%20Networks%20for%20Text%20Classification.md)
