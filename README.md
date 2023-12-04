@@ -22,6 +22,8 @@
 
 - [Efficient Pre-training of Masked Language Model via Concept-based Curriculum Masking[EMNLP2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Curriculum_Learning_in_LM/CCM.md)
 
+- [Curriculum Learning for Natural Language Understanding[ACL2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Curriculum_Learning_in_LM/CLforNLU.md)
+
 ### Dataset & Subset Selection
 
 - [PANDORA Talks: Personality and Demographics on Reddit[NAACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/PANDORA.md)
