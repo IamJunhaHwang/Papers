@@ -95,6 +95,10 @@
 
 - [Deep Learning[Nature:2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/Neural_Network/Deep_Learning.md)
 
+### Personality
+
+- [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personality/EvalandInducePersonality.md)
+
 ### Personality Prediction
 
 - [Text based personality prediction from multiple social media data sources using pre‑trained language model and model averaging[JBD:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Text%20based%20personality%20prediction%20from%20multiple%20social%20media%20data%20sources%20using%20pre%E2%80%91trained%20language%20model%20and%20model%20averaging.md)
@@ -108,6 +112,10 @@
 - [Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference[EACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Prompt_Learning/PET.md)
 
 - [It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners[NAACL2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Prompt_Learning/PET2.md)
+
+### Question Answering
+
+- [Empowering Language Models with Knowledge Graph Reasoning for Open-Domain Question Answering[EMNLP2022]](https://github.com/IamJunhaHwang/Papers/blob/main/Question_Answering/KGLM.md)
 
 ### Sentiment Analysis
 
