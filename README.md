@@ -41,6 +41,10 @@
 
 - [Convolutional Neural Networks for Sentence Classification[EMNLP:2014]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Convolutional%20Neural%20Networks%20for%20Sentence%20Classification.md)
 
+### Instruction Tuning
+
+- [FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS[ICLR 2022]](https://github.com/IamJunhaHwang/Papers/blob/main/Instruction_Tuning/FLAN(Instruction_tuning).md)
+
 ### Language Model
 
 - [Improving Language Understanding by Generative Pre-Training[ARXIV:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/Improving%20Language%20Understanding%20by%20Generative%20Pre-Training.md)
@@ -97,7 +101,7 @@
 
 - [Deep Learning[Nature:2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/Neural_Network/Deep_Learning.md)
 
-### Personality
+### Personality Generation
 
 - [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personality/EvalandInducePersonality.md)
 
