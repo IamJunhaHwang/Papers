@@ -105,7 +105,7 @@
 
 ### Personality Generation
 
-- [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personality/EvalandInducePersonality.md)
+- [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personality_Generation/EvalandInducePersonality.md)
 
 ### Personality Prediction
 
