@@ -35,6 +35,11 @@
 
 - [Deduplicating Training Data Makes Language Models Better[ACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/Deduplicating%20Training%20Data%20Makes%20Language%20Models%20Better.md)
 
+### Word Embedding
+
+- [Self-Attention with Relative Position Representations[NAACL 2018]](https://github.com/IamJunhaHwang/Papers/blob/main/Embedding/RPE.md)
+
+
 ### General NLP
 
 - [Character-level Convolutional Networks for Text Classification[NIPS:2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Character-level%20Convolutional%20Networks%20for%20Text%20Classification.md)
@@ -172,11 +177,6 @@
 
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
 
-
-
-### Word Embedding
-
-- TBD
 
 -----------
 
