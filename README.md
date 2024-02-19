@@ -35,7 +35,7 @@
 
 - [Deduplicating Training Data Makes Language Models Better[ACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset/Deduplicating%20Training%20Data%20Makes%20Language%20Models%20Better.md)
 
-### Word Embedding
+### Embedding
 
 - [Self-Attention with Relative Position Representations[NAACL 2018]](https://github.com/IamJunhaHwang/Papers/blob/main/Embedding/RPE.md)
 
