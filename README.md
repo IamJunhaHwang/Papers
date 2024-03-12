@@ -76,6 +76,8 @@
 
 - [LaMDA: Language Models for Dialog Applications[arXiv preprint 2022]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/LaMDA.md)
 
+- [RWKV: Reinventing RNNs for the Transformer Era [EMNLP 2023 - FINDINGS]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RWKV.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
