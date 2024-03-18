@@ -72,6 +72,8 @@
 
 - [Language Models are Unsupervised Multitask Learners[Preprint:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/GPT-2.md)
 
+- [Language Models are Few-Shot Learners [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/GPT-3.md)
+
 - [Unified Language Model Pre-training for Natural Language Understanding and Generation [NIPS:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Language_Model/UniLM.md)
 
 - [LaMDA: Language Models for Dialog Applications[arXiv preprint 2022]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/LaMDA.md)
