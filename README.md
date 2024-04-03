@@ -189,3 +189,5 @@
 - JunHa-Hwang, hwang_junha@naver.com, ChungBuk National Univ(Bachelor and master course)
 - SeungDong-Lee, sdlee130@naver.com, ChungBuk National Univ(Bachelor and master course)
 - EunJin-Kim, dw0815@chungbuk.ac.kr, ChungBuk National Univ(Master course)
+- Haneul Kim, , ChungBuk National Univ(Master course)
+- Miseo Kim, , ChungBuk National Univ(Master course)
