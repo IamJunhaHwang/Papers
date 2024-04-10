@@ -80,6 +80,8 @@
 
 - [RWKV: Reinventing RNNs for the Transformer Era [EMNLP 2023 - FINDINGS]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RWKV.md)
 
+- [Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RLHF.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
