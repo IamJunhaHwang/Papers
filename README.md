@@ -80,7 +80,7 @@
 
 - [RWKV: Reinventing RNNs for the Transformer Era [EMNLP 2023 - FINDINGS]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RWKV.md)
 
-- [Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RLHF.md)
+- [RLHF: Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RLHF.md)
 
 ### Machine Translation
 
