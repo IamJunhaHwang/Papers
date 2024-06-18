@@ -138,6 +138,10 @@
 
 - [Empowering Language Models with Knowledge Graph Reasoning for Open-Domain Question Answering[EMNLP2022]](https://github.com/IamJunhaHwang/Papers/blob/main/Question_Answering/KGLM.md)
 
+### Red Teaming
+
+- [Gradient-Based Language Model Red Teaming[EACL2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Red_Teaming/GBRT.md)
+
 ### Sentiment Analysis
 
 - [Multi-Domain Targeted Sentiment Analysis[NAACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Sentiment_Analysis/Multi-Domain_Targeted_SA.md)
