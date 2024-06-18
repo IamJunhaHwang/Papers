@@ -188,14 +188,3 @@
 - [Neural Machine Translation of Rare Words with Subword Units[ACL:2016]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/BPE.md)
 
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
-
-
------------
-
-### Member
-
-- JunHa-Hwang, hwang_junha@naver.com, ChungBuk National Univ(Bachelor and master course)
-- SeungDong-Lee, sdlee130@naver.com, ChungBuk National Univ(Bachelor and master course)
-- EunJin-Kim, dw0815@chungbuk.ac.kr, ChungBuk National Univ(Master course)
-- Haneul Kim, , ChungBuk National Univ(Master course)
-- Miseo Kim, , ChungBuk National Univ(Master course)
