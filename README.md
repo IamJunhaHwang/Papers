@@ -82,6 +82,8 @@
 
 - [RLHF: Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RLHF.md)
 
+- [SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling [NAACL2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/SOLAR.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
