@@ -4,8 +4,6 @@
 
 **파일명에는 특수문자(:, /, 등)가 들어가지 않도록 합니다**
 
-템플릿: `[Paper Title][Conf or Journal:Year]`
-
 --------------
 
 ### Character motivation modeling
@@ -83,6 +81,8 @@
 - [RLHF: Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RLHF.md)
 
 - [SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling [NAACL2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/SOLAR.md)
+
+- [THINK BEFORE YOU SPEAK: TRAINING LANGUAGE MODELS WITH PAUSE TOKENS [ICLR 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/pause_transformer.md)
 
 ### Machine Translation
 
