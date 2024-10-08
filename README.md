@@ -35,6 +35,8 @@
 
 - [MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases[ICLR 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/MobileLLM.md)
 
+- [LLAMA-ADAPTER: EFFICIENT FINE-TUNING OF LARGE LANGUAGE MODELS WITH ZERO-INITIALIZED ATTENTION[ICLR 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/LLAMA_ADAPTER.md)
+
 ### Embedding
 
 - [Self-Attention with Relative Position Representations[NAACL 2018]](https://github.com/IamJunhaHwang/Papers/blob/main/Embedding/RPE.md)
