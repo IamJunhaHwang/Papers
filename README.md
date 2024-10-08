@@ -31,6 +31,10 @@
 
 - [Deduplicating Training Data Makes Language Models Better[ACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset&Subset/Deduplicating%20Training%20Data%20Makes%20Language%20Models%20Better.md)
 
+### Efficient_Learning
+
+- [MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases[ICLR 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/MobileLLM.md)
+
 ### Embedding
 
 - [Self-Attention with Relative Position Representations[NAACL 2018]](https://github.com/IamJunhaHwang/Papers/blob/main/Embedding/RPE.md)
