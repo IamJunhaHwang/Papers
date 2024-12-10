@@ -16,6 +16,8 @@
 
 - [BEIT: BERT PRE-TRAINING OF IMAGE TRANSFORMERS [ICLR:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Computer_Vision/BEIT.md)
 
+- [FROZEN TRANSFORMERS IN LANGUAGE MODELS ARE EFFECTIVE VISUAL ENCODER LAYERS [ICLR 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Computer_Vision/Frozen_LLAMA.md)
+
 ### Curriculum Learning in LM
 
 - [Efficient Pre-training of Masked Language Model via Concept-based Curriculum Masking[EMNLP2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Curriculum_Learning_in_LM/CCM.md)
