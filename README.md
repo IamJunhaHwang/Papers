@@ -101,6 +101,7 @@
 - [Learning Transferable Visual Models From Natural Language Supervision[ICML:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Multi-Modal/CLIP.md)
 
 - [Honeybee: Locality-enhanced Projector for Multimodal LLM[CVPR 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Multi-Modal/Honeybee.md)
+- [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation[ICML 2022]](https://github.com/IamJunhaHwang/Papers/blob/main/Multi-Modal/BLIP.md)
 
 ### Multi-Task Learning
 
