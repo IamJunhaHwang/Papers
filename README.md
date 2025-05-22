@@ -94,6 +94,8 @@
 
 - [MiniMax-01: Scaling Foundation Models with Lightning Attention [arxiv 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/MiniMax.md)
 
+- [EuroBERT: Scaling Multilingual Encoders for European Languages [arxiv 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/EuroBERT.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
