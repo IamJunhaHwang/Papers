@@ -132,11 +132,7 @@
 
 - [Deep Learning[Nature:2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/Neural_Network/Deep_Learning.md)
 
-### Personality Generation
-
-- [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personality_Generation/EvalandInducePersonality.md)
-
-### Personality Prediction
+### Personality
 
 - [Text based personality prediction from multiple social media data sources using pre‑trained language model and model averaging[JBD:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Text%20based%20personality%20prediction%20from%20multiple%20social%20media%20data%20sources%20using%20pre%E2%80%91trained%20language%20model%20and%20model%20averaging.md)
 
@@ -145,6 +141,8 @@
 - [Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks[SBP-BRiMS:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Aspect%20Level%20Sentiment%20Classification%20with%20Attention-over-Attention%20Neural%20Networks.md)
 - [You Are What You Talk About: Inducing Evaluative Topics for Personality Analysis[EMNLP2022-FINDINGS]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/you%20are%20what%20you%20talk%20about.md)
 - [LLM vs Small Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model [AAAI 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity_Prediction/LLMvsSmallModel.md)
+- [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personality_Generation/EvalandInducePersonality.md)
+- [The Better Angels of Machine Personality: How Personality Relates to LLM Safety [arxiv 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/LLM_MBTI.md)
 
 ### Prompt Learning
 
