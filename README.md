@@ -49,6 +49,7 @@
 - [Character-level Convolutional Networks for Text Classification[NIPS:2015]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Character-level%20Convolutional%20Networks%20for%20Text%20Classification.md)
 
 - [Convolutional Neural Networks for Sentence Classification[EMNLP:2014]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Convolutional%20Neural%20Networks%20for%20Sentence%20Classification.md)
+- [Enabling Natural Zero-Shot Prompting on Encoder Models via Statement-Tuning[NAACL:2025-FINDINGS]](https://github.com/IamJunhaHwang/Papers/blob/main/General_NLP/statement_tuning.md)
 
 ### Instruction Tuning
 
