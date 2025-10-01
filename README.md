@@ -40,6 +40,7 @@
 - [LLAMA-ADAPTER: EFFICIENT FINE-TUNING OF LARGE LANGUAGE MODELS WITH ZERO-INITIALIZED ATTENTION[ICLR 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/LLAMA_ADAPTER.md)
 - [STEP: Staged Parameter-Efficient Pre-training for Large Language Models[NAACL 2025 Short]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/STEP.md)
 - [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS[ICLR 2022]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/LoRA.md)
+- [AFLoRA: Adaptive Freezing of Low Rank Adaptation in Parameter Efficient Fine-Tuning of Large Models [ACL 2024 SHORT]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/AFLoRA.md)
 
 ### Embedding
 
