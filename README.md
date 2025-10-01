@@ -147,6 +147,7 @@
 - [LLM vs Small Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model [AAAI 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity_Prediction/LLMvsSmallModel.md)
 - [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personality_Generation/EvalandInducePersonality.md)
 - [The Better Angels of Machine Personality: How Personality Relates to LLM Safety [arxiv 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/LLM_MBTI.md)
+- [PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits [NAACL 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/personaLLM.md)
 
 ### Prompt Learning
 
