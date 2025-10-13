@@ -149,6 +149,7 @@
 - [The Better Angels of Machine Personality: How Personality Relates to LLM Safety [arxiv 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/LLM_MBTI.md)
 - [PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits [NAACL 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/personaLLM.md)
 - [BIG5-CHAT: Shaping LLM Personalities Through Training on Human-Grounded Data [ACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/BIG5-CHAT.md)
+- [Multimodal Fine-Grained Apparent Personality Trait Recognition: Joint Modeling of Big Five and Questionnaire Item-level Scores [AAAI 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/multimodal_personality_recog.md)
 
 ### Prompt Learning
 
