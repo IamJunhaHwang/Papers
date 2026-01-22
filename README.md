@@ -41,6 +41,7 @@
 - [STEP: Staged Parameter-Efficient Pre-training for Large Language Models[NAACL 2025 Short]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/STEP.md)
 - [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS[ICLR 2022]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/LoRA.md)
 - [AFLoRA: Adaptive Freezing of Low Rank Adaptation in Parameter Efficient Fine-Tuning of Large Models [ACL 2024 SHORT]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/AFLoRA.md)
+- [HFT: Half Fine-Tuning for Large Language Models [ACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Efficient_Learning/HFT.md)
 
 ### Embedding
 
@@ -53,6 +54,8 @@
 
 - [Convolutional Neural Networks for Sentence Classification[EMNLP:2014]](https://github.com/DAILAB-CBNU/Papers/blob/main/General_NLP/Convolutional%20Neural%20Networks%20for%20Sentence%20Classification.md)
 - [Enabling Natural Zero-Shot Prompting on Encoder Models via Statement-Tuning[NAACL:2025-FINDINGS]](https://github.com/IamJunhaHwang/Papers/blob/main/General_NLP/statement_tuning.md)
+- [The Transfer Neurons Hypothesis: An Underlying Mechanism for Language Latent Space Transitions in Multilingual LLMs [EMNLP 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/General_NLP/transfer_neuron.md)
+- [LIMA: Less Is More for Alignment [Neurips 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/General_NLP/LIMA.md)
 
 ### Instruction Tuning
 
@@ -150,6 +153,7 @@
 - [PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits [NAACL 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/personaLLM.md)
 - [BIG5-CHAT: Shaping LLM Personalities Through Training on Human-Grounded Data [ACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/BIG5-CHAT.md)
 - [Multimodal Fine-Grained Apparent Personality Trait Recognition: Joint Modeling of Big Five and Questionnaire Item-level Scores [AAAI 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/multimodal_personality_recog.md)
+- [Personality Vector: Modulating Personality of Large Language Models by Model Merging [EMNLP 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/personality_vector.md)
 
 ### Prompt Learning
 
