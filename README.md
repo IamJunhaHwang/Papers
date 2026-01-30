@@ -154,6 +154,7 @@
 - [BIG5-CHAT: Shaping LLM Personalities Through Training on Human-Grounded Data [ACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/BIG5-CHAT.md)
 - [Multimodal Fine-Grained Apparent Personality Trait Recognition: Joint Modeling of Big Five and Questionnaire Item-level Scores [AAAI 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/multimodal_personality_recog.md)
 - [Personality Vector: Modulating Personality of Large Language Models by Model Merging [EMNLP 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/personality_vector.md)
+- [INCHARACTER: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews [ACL 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/INCHARACTER.md)
 
 ### Prompt Learning
 
