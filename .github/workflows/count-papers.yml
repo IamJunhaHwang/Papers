@@ -15,5 +15,5 @@ jobs:
       - name: Count *.md files
         run: |
           echo "Counting *.md files..."
-          count=$(find . -name "*.md" | wc -l)
+          count=$(find . -name "*.md" ! -name "README.md" | wc -l)
           echo "Total Paper Count: $count"
