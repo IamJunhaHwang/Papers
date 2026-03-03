@@ -32,6 +32,7 @@
 - [BERT on a Data Diet: Finding Important Examples by Gradient-Based Pruning[NeurIPS 2022 - workshop]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset&Subset/BERT_on_a_Data_Diet.md)
 
 - [Deduplicating Training Data Makes Language Models Better[ACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset&Subset/Deduplicating%20Training%20Data%20Makes%20Language%20Models%20Better.md)
+- [Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond) [Neurips2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Dataset%26Subset/Hivemind.md)
 
 ### Efficient_Learning
 
@@ -216,3 +217,5 @@
 - [Neural Machine Translation of Rare Words with Subword Units[ACL:2016]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/BPE.md)
 
 - [Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates[ACL:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Tokenization/Subword%20Regularization.md)
+
+- [SuperBPE: Space Travel for Language Models [COLM 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Tokenization/SuperBPE.md)
