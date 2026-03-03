@@ -1,0 +1,19 @@
+name: Count Papers
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  count_papers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Count paper.md files
+        run: |
+          echo "Counting paper.md files..."
+          count=$(find . -name "*.md" | wc -l)
+          echo "Total paper.md files: $count"
