@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Count paper.md files
+      - name: Count *.md files
         run: |
           echo "Counting paper.md files..."
           count=$(find . -name "*.md" | wc -l)
