@@ -94,8 +94,6 @@
 
 - [RWKV: Reinventing RNNs for the Transformer Era [EMNLP 2023 - FINDINGS]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RWKV.md)
 
-- [RLHF: Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RLHF.md)
-
 - [SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling [NAACL2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/SOLAR.md)
 
 - [THINK BEFORE YOU SPEAK: TRAINING LANGUAGE MODELS WITH PAUSE TOKENS [ICLR 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/pause_transformer.md)
@@ -170,6 +168,12 @@
 ### Red Teaming
 
 - [Gradient-Based Language Model Red Teaming[EACL2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Red_Teaming/GBRT.md)
+
+### Reinforcement learning for NLP
+
+- [RLHF: Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RLHF.md)
+
+- [Sequence-level Large Language Model Training with Contrastive Preference Optimization [NAACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Reinforcement_learning_for_NLP/CPO.md)
 
 ### Sentiment Analysis
 
