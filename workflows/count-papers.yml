@@ -2,7 +2,7 @@ name: Count Papers
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
 
 jobs:
   count_papers:
