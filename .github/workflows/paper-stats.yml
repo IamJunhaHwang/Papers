@@ -59,6 +59,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add stats/history.csv stats/cumulative.svg
+          git add stats/history.csv
+          git add stats/cumulative.svg 2>/dev/null || true
           git commit -m "Update paper statistics" || echo "No changes"
           git push
