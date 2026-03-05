@@ -102,6 +102,8 @@
 
 - [EuroBERT: Scaling Multilingual Encoders for European Languages [arxiv 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/EuroBERT.md)
 
+- [ DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning [Nature 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/DeepSeekR1.md)
+
 ### Machine Translation
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
