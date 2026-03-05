@@ -4,6 +4,10 @@
 
 **파일명에는 특수문자(:, /, 등)가 들어가지 않도록 합니다**
 
+## 📈 Reading Progress (Cumulative)
+
+![Cumulative Graph](stats/cumulative.svg)
+
 --------------
 
 ### Character motivation modeling
