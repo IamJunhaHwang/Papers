@@ -171,7 +171,7 @@
 
 ### Reinforcement learning for NLP
 
-- [RLHF: Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/RLHF.md)
+- [RLHF: Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Reinforcement_learning_for_NLP/RLHF.md)
 
 - [Sequence-level Large Language Model Training with Contrastive Preference Optimization [NAACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Reinforcement_learning_for_NLP/CPO.md)
 
