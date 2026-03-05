@@ -1,0 +1,64 @@
+name: Paper Statistics
+
+on: push
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count markdown files
+        run: |
+          count=$(find . -name "*.md" | wc -l)
+          date=$(date +%Y-%m-%d)
+          echo "COUNT=$count" >> $GITHUB_ENV
+          echo "DATE=$date" >> $GITHUB_ENV
+
+      - name: Append history
+        run: |
+          mkdir -p stats
+          if ! grep -q "$DATE" stats/history.csv; then
+            echo "$DATE,$COUNT" >> stats/history.csv
+          fi
+
+      - name: Generate SVG graph
+        run: |
+          python << 'EOF'
+          import csv
+          from pathlib import Path
+
+          data = []
+          with open("stats/history.csv") as f:
+            reader = csv.DictReader(f)
+            for r in reader:
+              data.append((r["date"], int(r["count"])))
+
+          if len(data) < 2:
+            exit()
+
+          w, h = 600, 200
+          padding = 30
+          max_y = max(v for _, v in data)
+
+          def sx(i): return padding + i*(w-2*padding)/(len(data)-1)
+          def sy(v): return h-padding - v*(h-2*padding)/max_y
+
+          points = " ".join(f"{sx(i)},{sy(v)}" for i,(_,v) in enumerate(data))
+
+          svg = f"""<svg width="{w}" height="{h}" xmlns="http://www.w3.org/2000/svg">
+          <polyline fill="none" stroke="#1f6feb" stroke-width="2" points="{points}"/>
+          <text x="10" y="15" font-size="12">Cumulative papers</text>
+          </svg>"""
+
+          Path("stats/cumulative.svg").write_text(svg)
+          EOF
+
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add stats/history.csv stats/cumulative.svg
+          git commit -m "Update paper statistics" || echo "No changes"
+          git push
