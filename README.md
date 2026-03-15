@@ -148,12 +148,12 @@
 
 - [Text based personality prediction from multiple social media data sources using pre‑trained language model and model averaging[JBD:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Text%20based%20personality%20prediction%20from%20multiple%20social%20media%20data%20sources%20using%20pre%E2%80%91trained%20language%20model%20and%20model%20averaging.md)
 
-- [The Emotion is Not One-hot Encoding: Learning with Grayscale Label for Emotion Recognition in Conversation[INTERSPEECH:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/The%20Emotion%20is%20Not%20One-hot%20Encoding.md)
-- [Fine-grained Sentiment Classification using BERT[AITB:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Fine-grained%20Sentiment%20Classification%20using%20BERT.md)
-- [Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks[SBP-BRiMS:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/Aspect%20Level%20Sentiment%20Classification%20with%20Attention-over-Attention%20Neural%20Networks.md)
-- [You Are What You Talk About: Inducing Evaluative Topics for Personality Analysis[EMNLP2022-FINDINGS]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity_Prediction/you%20are%20what%20you%20talk%20about.md)
-- [LLM vs Small Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model [AAAI 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity_Prediction/LLMvsSmallModel.md)
-- [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personality_Generation/EvalandInducePersonality.md)
+- [The Emotion is Not One-hot Encoding: Learning with Grayscale Label for Emotion Recognition in Conversation[INTERSPEECH:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity/The%20Emotion%20is%20Not%20One-hot%20Encoding.md)
+- [Fine-grained Sentiment Classification using BERT[AITB:2019]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity/Fine-grained%20Sentiment%20Classification%20using%20BERT.md)
+- [Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks[SBP-BRiMS:2018]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity/Aspect%20Level%20Sentiment%20Classification%20with%20Attention-over-Attention%20Neural%20Networks.md)
+- [You Are What You Talk About: Inducing Evaluative Topics for Personality Analysis[EMNLP2022-FINDINGS]](https://github.com/DAILAB-CBNU/Papers/blob/main/Personlity/you%20are%20what%20you%20talk%20about.md)
+- [LLM vs Small Model? Large Language Model Based Text Augmentation Enhanced Personality Detection Model [AAAI 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/LLMvsSmallModel.md)
+- [Evaluating and Inducing Personality in Pre-trained Language Models[NeurIPS 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/EvalandInducePersonality.md)
 - [The Better Angels of Machine Personality: How Personality Relates to LLM Safety [arxiv 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/LLM_MBTI.md)
 - [PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits [NAACL 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/personaLLM.md)
 - [BIG5-CHAT: Shaping LLM Personalities Through Training on Human-Grounded Data [ACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/BIG5-CHAT.md)
