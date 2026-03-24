@@ -11,7 +11,7 @@ jobs:
 
       - name: Count markdown files
         run: |
-          count=$(find . -name "*.md" | wc -l)
+          count=$(find . -name "*.md" ! -name "README.md" | wc -l)
           date=$(date +%Y-%m-%d)
           echo "COUNT=$count" >> $GITHUB_ENV
           echo "DATE=$date" >> $GITHUB_ENV
