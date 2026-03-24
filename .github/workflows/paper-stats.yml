@@ -19,9 +19,16 @@ jobs:
       - name: Append history
         run: |
           mkdir -p stats
-          if ! grep -q "$DATE" stats/history.csv; then
-            echo "$DATE,$COUNT" >> stats/history.csv
+          
+          if [ ! -f stats/history.csv ]; then
+            echo "date,count" > stats/history.csv
           fi
+          
+          grep -v "^$DATE," stats/history.csv > stats/tmp.csv
+          
+          echo "$DATE,$COUNT" >> stats/tmp.csv
+          
+          (head -n 1 stats/tmp.csv && tail -n +2 stats/tmp.csv | sort -t, -k1,1) > stats/history.csv
 
       - name: Generate SVG graph
         run: |
@@ -34,6 +41,7 @@ jobs:
             reader = csv.DictReader(f)
             for r in reader:
               data.append((r["date"], int(r["count"])))
+            data.sort(key=lambda x: x[0])
 
           if len(data) < 2:
             exit()
