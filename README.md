@@ -106,7 +106,9 @@
 
 - [EuroBERT: Scaling Multilingual Encoders for European Languages [arxiv 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/EuroBERT.md)
 
-- [ DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning [Nature 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/DeepSeekR1.md)
+- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning [Nature 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/DeepSeekR1.md)
+
+- [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models [arxiv 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Language_Model/DeepSeekMath.md)
 
 ### Machine Translation
 
@@ -180,6 +182,8 @@
 - [RLHF: Learning to summarize from human feedback [NeurIPS 2020]](https://github.com/IamJunhaHwang/Papers/blob/main/Reinforcement_learning_for_NLP/RLHF.md)
 
 - [Sequence-level Large Language Model Training with Contrastive Preference Optimization [NAACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Reinforcement_learning_for_NLP/CPO.md)
+
+- [RLVER: REINFORCEMENT LEARNING WITH VERIFIABLE EMOTION REWARDS FOR EMPATHETIC AGENTS [ICLR 2026]](https://github.com/IamJunhaHwang/Papers/blob/main/Reinforcement_learning_for_NLP/RLVER.md)
 
 ### Sentiment Analysis
 
