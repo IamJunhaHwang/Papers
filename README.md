@@ -185,6 +185,8 @@
 
 - [RLVER: REINFORCEMENT LEARNING WITH VERIFIABLE EMOTION REWARDS FOR EMPATHETIC AGENTS [ICLR 2026]](https://github.com/IamJunhaHwang/Papers/blob/main/Reinforcement_learning_for_NLP/RLVER.md)
 
+- [Diversity-Enhanced Reasoning for Subjective Questions [ICLR 2026]](https://github.com/IamJunhaHwang/Papers/blob/main/Reinforcement_learning_for_NLP/Diversity-Enhanced_Reasoning_for_Subjective_Questions.md)
+
 ### Sentiment Analysis
 
 - [Multi-Domain Targeted Sentiment Analysis[NAACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Sentiment_Analysis/Multi-Domain_Targeted_SA.md)
