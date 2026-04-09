@@ -1,4 +1,4 @@
 <svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
-<polyline fill="none" stroke="#1f6feb" stroke-width="2" points="30.0,32.80000000000001 210.0,32.80000000000001 390.0,31.400000000000006 570.0,30.0"/>
+<polyline fill="none" stroke="#1f6feb" stroke-width="2" points="30.0,32.80000000000001 165.0,32.80000000000001 165.0,32.80000000000001 300.0,32.80000000000001 300.0,31.400000000000006 435.0,31.400000000000006 435.0,30.0 570.0,30.0 570.0,30.0"/>
 <text x="10" y="15" font-size="12">Cumulative papers</text>
 </svg>
