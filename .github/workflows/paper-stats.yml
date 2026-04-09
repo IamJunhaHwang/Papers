@@ -48,12 +48,26 @@ jobs:
 
           w, h = 600, 200
           padding = 30
-          max_y = max(v for _, v in data)
+          # 만약 논문 수가 0개일 때 0으로 나누는 에러(ZeroDivisionError)를 방지하기 위해 max(1, ...) 처리
+          max_y = max(1, max(v for _, v in data)) 
 
           def sx(i): return padding + i*(w-2*padding)/(len(data)-1)
           def sy(v): return h-padding - v*(h-2*padding)/max_y
 
-          points = " ".join(f"{sx(i)},{sy(v)}" for i,(_,v) in enumerate(data))
+          # 일직선 대신 계단(Step) 모양으로 포인트를 연결하는 부분
+          step_points = []
+          for i, (_, v) in enumerate(data):
+              x = sx(i)
+              y = sy(v)
+              if i > 0:
+                  # 이전 점의 Y좌표를 유지한 채 X좌표만 이동 (수평선 긋기)
+                  prev_y = sy(data[i-1][1])
+                  step_points.append(f"{x},{prev_y}")
+              
+              # 그 다음 현재 값의 Y좌표로 이동 (수직선 긋기)
+              step_points.append(f"{x},{y}")
+
+          points = " ".join(step_points)
 
           svg = f"""<svg width="{w}" height="{h}" xmlns="http://www.w3.org/2000/svg">
           <polyline fill="none" stroke="#1f6feb" stroke-width="2" points="{points}"/>
