@@ -2,6 +2,10 @@ name: Paper Statistics
 
 on: push
 
+# Opt into Node.js 24 to silence the deprecation warning
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   stats:
     runs-on: ubuntu-latest
@@ -77,6 +81,7 @@ jobs:
           texts = "\n".join(text_labels)
 
           svg = f"""<svg width="{w}" height="{h}" xmlns="http://www.w3.org/2000/svg">
+          <rect width="100%" height="100%" fill="white"/>
           <polyline fill="none" stroke="#1f6feb" stroke-width="2" points="{points}"/>
           {texts}
           <text x="10" y="15" font-size="12" font-weight="bold" fill="#24292f">Cumulative papers</text>
