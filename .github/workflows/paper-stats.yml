@@ -48,30 +48,38 @@ jobs:
 
           w, h = 600, 200
           padding = 30
-          # 만약 논문 수가 0개일 때 0으로 나누는 에러(ZeroDivisionError)를 방지하기 위해 max(1, ...) 처리
           max_y = max(1, max(v for _, v in data)) 
 
           def sx(i): return padding + i*(w-2*padding)/(len(data)-1)
           def sy(v): return h-padding - v*(h-2*padding)/max_y
 
-          # 일직선 대신 계단(Step) 모양으로 포인트를 연결하는 부분
           step_points = []
-          for i, (_, v) in enumerate(data):
+          text_labels = []
+
+          # (_, v) 대신 (d, v)로 변경하여 날짜(d) 데이터도 가져옵니다.
+          for i, (d, v) in enumerate(data):
               x = sx(i)
               y = sy(v)
               if i > 0:
-                  # 이전 점의 Y좌표를 유지한 채 X좌표만 이동 (수평선 긋기)
                   prev_y = sy(data[i-1][1])
                   step_points.append(f"{x},{prev_y}")
               
-              # 그 다음 현재 값의 Y좌표로 이동 (수직선 긋기)
               step_points.append(f"{x},{y}")
+              
+              # 가장 최신(마지막) 데이터인 경우에만 텍스트 추가
+              if i == len(data) - 1:
+                  # 논문 개수 (조금 더 크고 굵게, 파란색)
+                  text_labels.append(f'<text x="{x}" y="{y-14}" font-size="12" font-weight="bold" fill="#1f6feb" text-anchor="middle">{v}</text>')
+                  # 날짜 (숫자 아래에 작고 연하게, 회색)
+                  text_labels.append(f'<text x="{x}" y="{y-3}" font-size="9" fill="#57606a" text-anchor="middle">{d}</text>')
 
           points = " ".join(step_points)
+          texts = "\n".join(text_labels)
 
           svg = f"""<svg width="{w}" height="{h}" xmlns="http://www.w3.org/2000/svg">
           <polyline fill="none" stroke="#1f6feb" stroke-width="2" points="{points}"/>
-          <text x="10" y="15" font-size="12">Cumulative papers</text>
+          {texts}
+          <text x="10" y="15" font-size="12" font-weight="bold" fill="#24292f">Cumulative papers</text>
           </svg>"""
 
           Path("stats/cumulative.svg").write_text(svg)
