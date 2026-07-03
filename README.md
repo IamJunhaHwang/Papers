@@ -37,6 +37,7 @@
 
 - [Deduplicating Training Data Makes Language Models Better[ACL:2022]](https://github.com/DAILAB-CBNU/Papers/blob/main/Dataset&Subset/Deduplicating%20Training%20Data%20Makes%20Language%20Models%20Better.md)
 - [Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond) [Neurips2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Dataset%26Subset/Hivemind.md)
+- [MOTIVEBENCH: How Far Are We From Human-Like Motivational Reasoning in Large Language Models? [ACL 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Dataset%26Subset/MotiveBench.md)
 
 ### Efficient_Learning
 
@@ -162,7 +163,7 @@
 - [Multimodal Fine-Grained Apparent Personality Trait Recognition: Joint Modeling of Big Five and Questionnaire Item-level Scores [AAAI 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/multimodal_personality_recog.md)
 - [Personality Vector: Modulating Personality of Large Language Models by Model Merging [EMNLP 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/personality_vector.md)
 - [INCHARACTER: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews [ACL 2024]](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/INCHARACTER.md)
-- [personality research trends 25\~26](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/survey(25_26).md)
+- [Personality research trends 25\~26](https://github.com/IamJunhaHwang/Papers/blob/main/Personlity/survey(25_26).md)
 
 ### Prompt Learning
 
