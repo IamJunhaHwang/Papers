@@ -115,6 +115,16 @@
 
 - [Attention Is All You Need[NIPS:2017]](https://github.com/DAILAB-CBNU/Papers/blob/main/Machine_Translation/Attention%20Is%20All%20You%20Need.md)
 
+### Model Behavior
+
+- [AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions [Neurips 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Model_Behavior/Abstentionbench.md)
+
+- [DECEPTIONBENCH: A Comprehensive Benchmark for AI Deception Behaviors in Real-world Scenarios [Neurips 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Model_Behavior/DeceptionBench.md)
+- [Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs [ICML 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Model_Behavior/Emergent_misalignment.md)
+- [The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems [arxiv 2025]](https://github.com/IamJunhaHwang/Papers/blob/main/Model_Behavior/MASK_bench.md)
+- [Discovering Language Model Behaviors with Model-Written Evaluations [ACL 2023]](https://github.com/IamJunhaHwang/Papers/blob/main/Model_Behavior/Model_written_eval.md)
+- [The Persona Selection Model: Why AI Assistants might Behave like Humans [Anthropic blog post 2026]](https://github.com/IamJunhaHwang/Papers/blob/main/Model_Behavior/persona_selection_model.md)
+
 ### Multi-Modal
 
 - [Learning Transferable Visual Models From Natural Language Supervision[ICML:2021]](https://github.com/DAILAB-CBNU/Papers/blob/main/Multi-Modal/CLIP.md)
